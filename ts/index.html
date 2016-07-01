@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://npmcdn.com/systemjs@0.19.31/dist/system.js"></script>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		System.config({
+			packages:{
+				"dist":{
+					"defaultExtension":"js",
+					"main":"start"
+				}
+			}
+		});
+
+		System.import("dist");
+
+	</script>
+</body>
+</html>
